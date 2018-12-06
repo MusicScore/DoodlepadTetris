@@ -1,11 +1,11 @@
 package com.github.musicscore.doodlepadtetris;
 
-import doodlepad.*;
-
 public class DoodlepadTetris {
 
     public static void main(String[] args) {
-        Pad pad = new Pad(100, 200);
+        // TODO: Create other screens that will allow users to choose a level, and perhaps
+        //   some music.
+        Board board = new Board(10, 20, 20, 18);
     }
 
 }
